@@ -1,0 +1,11 @@
+.flip-card {
+  transform-style: preserve-3d;
+}
+
+.flip-card:active {
+  width: 320px;
+  height: 500px;
+  transition: cubic-bezier(.01, .95, .92, 1.1) 1000ms;
+  transform: rotateY(180deg);
+
+}
